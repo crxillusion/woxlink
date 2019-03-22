@@ -1,0 +1,73 @@
+.page-main {
+    padding-top: 20px;
+}
+.form {
+    width: 90%;
+}
+.form-wrap {
+    padding: 40px 20px;
+}
+
+.form-head-text {
+    word-wrap: break-word;
+}
+
+.input-group {
+    min-width: 0px;
+    width: 100%;
+}
+
+.form-description {
+    text-align: center;
+}
+
+.select-label {
+    margin-right: 0;
+    text-align: center;
+}
+
+.form-group {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.select {
+    width: 100%;
+}
+
+.file-label {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.file-label::before {
+    margin: 0 0 20px 0;
+}
+
+.file-label-texts {
+    text-align: center;
+}
+
+.check-group {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.question-group {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.question-label {
+    margin-bottom: 20px;
+}
+
+.question {
+    width: 100%;
+}
+
+.form-footer-wrap {
+    /* padding-top: 30px; */
+    width: 90%;
+}
