@@ -1,0 +1,247 @@
+/*font-size*/
+.font-xl {
+    font-size: 60px;
+}
+
+.font-bg {
+    font-size: 50px;
+}
+
+.font-md {
+    font-size: 30px;
+}
+
+.font-sm {
+    font-size: 20px;
+}
+
+.font-xs {
+    font-size: 15px;
+}
+
+/*font-size*/
+
+/*font-weight*/
+.font-bold {
+    font-weight: bold;
+}
+
+.font-normal {
+    font-weight: normal;
+}
+/*font-weight*/
+
+/*text-colors*/
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-orange {
+    color: #BC4600;
+}
+
+/*text-colors*/
+
+/*buttons*/
+.btn {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.btn-orange {
+    background-color: #BC4600;
+}
+/*buttons*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sr-only {
+    display: none;
+}
+
+.page-main {
+    min-height: 100vh;
+    background-image: url('1.jpg');
+    background-size: contain;
+    background-position: center;
+    padding-top: 200px;
+}
+
+.form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+.form-wrap {
+    padding: 35px;
+}
+
+
+/*form-head*/
+.form-head {
+    text-align:center;
+}
+
+.fotm-head-text {
+
+}
+
+.form-head-text .t1 {
+
+}
+
+.form-head-text .t2 {
+
+}
+
+.form-logo-container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.form-logo-img {
+    width: 100%;
+}
+
+.form-logo-text {
+    width: 100%;
+}
+
+.form-inputs-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.page-wishes {
+
+}
+/*form-head*/
+
+/*form-main*/
+
+.form-description {
+
+}
+
+/*form-content*/
+.form-group {
+    margin: 6px 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.input-group {
+    min-width: 300px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-label {
+
+}
+
+.label {
+
+}
+
+.select-group {
+    width: 100%;
+}
+
+.select-label {
+    margin-right: 30px;
+}
+
+.select {
+    min-width: 200px;
+}
+
+.select1 {
+    flex-grow: 1;
+}
+
+.select2 {
+}
+
+
+.file-group {
+    width: 100%;
+    align-items: flex-start;
+}
+
+.file {
+
+}
+
+.file-label {
+    margin-left: 30px;
+}
+
+.check-group {
+    width: 100%;
+}
+
+.checkbox-label {
+    margin-left: 30px;
+}
+
+.checkbox {
+    -webkit-appearance: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #ffffff;
+}
+
+.checkbox:checked::before {
+    content: "✔";
+    font-size: 30px;
+}
+
+.question-group {
+    width: 100%;
+    justify-content: center;
+}
+
+.question-label {
+    margin-right: 10px;
+}
+
+.question {
+    width: 100px;
+}
+
+.submit {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+/*form-content*/
+
+/*form-main*/
+
+/*for,-footer*/
+.form-footer {
+    padding-top: 30px;
+    text-align: center;
+}
+.form-footer {
+    width: 60%;
+    margin: 0 auto;
+}
+/*for,-footer*/
