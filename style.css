@@ -135,7 +135,7 @@ a {
     background-image: url('1.jpg');
     background-size: contain;
     background-position: center;
-    padding-top: 200px;
+    padding: 200px 0;
 }
 
 .form {
@@ -244,6 +244,17 @@ a {
 
 .select {
     min-width: 200px;
+    padding: 8px 10px;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(arrow.png) 95% / 15% no-repeat #fff;
+    background-size: 20px;
+}
+
+.select::-ms-expand {
+    display: none; /* remove default arrow on ie10 and ie11 */
 }
 
 .select1 {
