@@ -139,7 +139,7 @@ a {
 }
 
 .form {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     background-color: #000000;
     max-width: 950px;
@@ -207,6 +207,7 @@ a {
     margin: 10px 0;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .form-link {
@@ -327,14 +328,15 @@ a {
 /*form-main*/
 
 /*for,-footer*/
-.form-footer {
+.form-footer-wrap {
     /* padding-top: 30px; */
+    width: 60%;
+    margin: 0 auto;
     text-align: center;
 }
 
 .form-footer {
-    width: 60%;
-    margin: 50px auto 0;
+    margin-top: 50px;
 }
 
 /*for,-footer*/
